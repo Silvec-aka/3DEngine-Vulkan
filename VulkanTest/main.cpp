@@ -6,7 +6,6 @@
 #include <iostream>
 #include <stdexcept>
 
-
 int main()
 {
     lve::FirstApp app{};
