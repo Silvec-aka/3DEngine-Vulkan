@@ -24,4 +24,4 @@ test: VulkanTest
 
 clean:
 	rm -f VulkanTest
-	rm -f *.spv
+	rm -f shaders/*.spv
