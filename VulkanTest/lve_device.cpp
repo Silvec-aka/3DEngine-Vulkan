@@ -126,7 +126,7 @@ void LveDevice::pickPhysicalDevice() {
     }
   }
 
-  // physicalDevice = devices[2]; // pick nvidia gpu which is the 3rd device
+  physicalDevice = devices[2]; // pick nvidia gpu which is the 3rd device
 
   if (physicalDevice == VK_NULL_HANDLE) {
     throw std::runtime_error("failed to find a suitable GPU!");
